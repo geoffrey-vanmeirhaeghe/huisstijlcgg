@@ -1,0 +1,68 @@
+collections:
+  principles:
+    output: true
+
+  logos:
+    output: true
+
+  colors:
+    output: true
+
+  fonts:
+    output: true
+
+  products:
+    output: true
+
+  websites:
+    output: true
+
+  numbers:
+    output: true
+      
+    
+defaults:
+- scope:
+    path: ""
+    type: "principles"
+  values:
+    category: "principle"
+- scope:
+    path: ""
+    type: "logos"
+  values:
+    category: "logo"
+- scope:
+    path: ""
+    type: "colors"
+  values:
+    category: "color"
+- scope:
+    path: ""
+    type: "fonts"
+  values:
+    category: "font"
+- scope:
+    path: ""
+    type: "products"
+  values:
+    category: "product"
+- scope:
+    path: ""
+    type: "numbers"
+  values:
+    category: "number"
+- scope:
+    path: ""
+    type: "websites"
+  values:
+    category: "website"
+- scope:
+    path: ""
+    type: "posts"
+  values:
+    layout: "post"
+- scope:
+    path: ""
+  values:
+    layout: "default"

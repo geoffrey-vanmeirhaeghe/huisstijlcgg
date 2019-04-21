@@ -1,0 +1,43 @@
+<div class="summary">
+    <div class="wrap">
+        <h2>Overzicht</h2>
+        <ol>
+            
+            {% if page.title contains "Basisprincipes" %}
+                {% for principle in site.principles %}
+                    <li><a href="{{ principle.url }}"> {{ principle.title }} </a></li>
+                {% endfor %}
+            
+            {% elsif page.title contains "Logo" %}
+                {% for logo in site.logos %}
+                    <li><a href="{{ logo.url }}"> {{ logo.title }} </a></li>
+                {% endfor %}
+            
+            {% elsif page.title contains "Kleuren" %}
+                {% for color in site.colors %}
+                    <li><a href="{{ color.url }}"> {{ color.title }} </a></li>
+                {% endfor %}
+            
+            {% elsif page.title contains "Typografie" %}
+                {% for font in site.fonts %}
+                    <li><a href="{{ font.url }}"> {{ font.title }} </a></li>
+                {% endfor %}
+            
+            {% elsif page.title contains "Deliverables" %}
+                {% for product in site.products %}
+                    <li><a href="{{ product.url }}"> {{ product.title }} </a></li>
+                {% endfor %}
+            
+            {% elsif page.title contains "Bestek" %}
+                {% for number in site.numbers %}
+                    <li><a href="{{ number.url }}"> {{ number.title }} </a></li>
+                {% endfor %}
+            
+            {% else %}
+                {% for website in site.websites %}
+                    <li><a href="{{ website.url }}"> {{ website.title }} </a></li>
+                {% endfor %}
+            {% endif %}
+        </ol>
+    </div>
+</div>

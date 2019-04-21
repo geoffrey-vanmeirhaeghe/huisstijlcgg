@@ -1,0 +1,1 @@
+Omwille van de digitale vooruitgang en de opportuniteiten die deze biedt, werd gevraagd om een vernieuwde hedendaagse website te ontwerpen. Binnen dit onderdeel werd een digitale stijl ontworpen die aansluit bij de toepassingen voor drukwerk. Deze stijl werd vervolgens in een website en een e-mailtemplate gegoten.

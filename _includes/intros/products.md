@@ -1,0 +1,1 @@
+Binnen dit onderdeel van de website komen de deliverables te staan. Op uitzondering van enkele specifieke producten, zijn deze in een template gegoten, zodat ze aangepast kunnen worden naar doelgroep, specifieke zorggroepen en andere parameters.

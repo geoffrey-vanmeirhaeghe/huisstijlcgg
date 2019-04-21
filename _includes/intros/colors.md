@@ -1,0 +1,1 @@
+Vanuit het onderzoek kwamen 3 grote kernwaarden naar voren: "Deskundigheid", "Persoonsgerichtheid" en "Toehankelijkheid". Deze waarden zitten in het kleurgebruik omvat door het gebruik van blauwtinten als primaire kleuren. Verder zijn er richtlijnen voor het gebruik van overlays, aangezien deze veelal aanwezig zijn in het ontwerp.

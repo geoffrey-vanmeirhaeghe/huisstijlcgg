@@ -1,0 +1,23 @@
+docs_list_title: ACME Documentation
+docs:
+
+- title: Basisprincipes
+  url: /principles.html
+
+- title: Logo en iconen
+  url: /logos.html
+
+- title: Kleuren en Overlays
+  url: /colors.html
+  
+- title: Typografie
+  url: /fonts.html
+  
+- title: Deliverables en templates
+  url: /products.html
+
+- title: Website en E-mailtemplate
+  url: /websites.html
+
+- title: Bestek
+  url: /numbers.html

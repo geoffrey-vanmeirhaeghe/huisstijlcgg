@@ -1,3 +1,5 @@
+baseurl: "/huisstijlcgg"
+
 collections:
   principles:
     output: true

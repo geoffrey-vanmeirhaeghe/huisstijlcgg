@@ -1,7 +1,7 @@
 <div>
-    <header class="related-header" {% if page.related-header %} style="background-image: url('{{ page.related-header }}');" {% endif %}{% if page.custom_header %} id="tall-header" {% endif %}>
+    <header class="related-header" {% if page.related-header %} style="background-image: url('{{site.baseurl}}{{ page.related-header }}');" {% endif %}{% if page.custom_header %} id="tall-header" {% endif %}>
         {% if page.title == "Home" %}
-        <img id="home-component" src="/assets/images/header/cgglogo-white-header.png">
+        <img id="home-component" src="{{site.baseurl}}/assets/images/header/cgglogo-white-header.png">
         <h1 id="home-header-title">Visual Identity &amp; Website</h1>
             
         <p>
@@ -10,9 +10,9 @@
             </a>
         </p>          
             
-            {% else %}
+            {% elsif page.component-image %}
                     <div class="component-img" class="col-sm-12">
-                        <img src="{{ page.component-image }}">
+                        <img src="{{site.baseurl}}{{ page.component-image }}">
                     </div>
         {% endif %}
     </header>

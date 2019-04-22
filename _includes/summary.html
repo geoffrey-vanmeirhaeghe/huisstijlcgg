@@ -5,37 +5,37 @@
             
             {% if page.title contains "Basisprincipes" %}
                 {% for principle in site.principles %}
-                    <li><a href="{{ principle.url }}"> {{ principle.title }} </a></li>
+                    <li><a href="{{site.baseurl}}{{ principle.url }}"> {{ principle.title }} </a></li>
                 {% endfor %}
             
             {% elsif page.title contains "Logo" %}
                 {% for logo in site.logos %}
-                    <li><a href="{{ logo.url }}"> {{ logo.title }} </a></li>
+                    <li><a href="{{site.baseurl}}{{ logo.url }}"> {{ logo.title }} </a></li>
                 {% endfor %}
             
             {% elsif page.title contains "Kleuren" %}
                 {% for color in site.colors %}
-                    <li><a href="{{ color.url }}"> {{ color.title }} </a></li>
+                    <li><a href="{{site.baseurl}}{{ color.url }}"> {{ color.title }} </a></li>
                 {% endfor %}
             
             {% elsif page.title contains "Typografie" %}
                 {% for font in site.fonts %}
-                    <li><a href="{{ font.url }}"> {{ font.title }} </a></li>
+                    <li><a href="{{site.baseurl}}{{ font.url }}"> {{ font.title }} </a></li>
                 {% endfor %}
             
             {% elsif page.title contains "Deliverables" %}
                 {% for product in site.products %}
-                    <li><a href="{{ product.url }}"> {{ product.title }} </a></li>
+                    <li><a href="{{site.baseurl}}{{ product.url }}"> {{ product.title }} </a></li>
                 {% endfor %}
             
             {% elsif page.title contains "Bestek" %}
                 {% for number in site.numbers %}
-                    <li><a href="{{ number.url }}"> {{ number.title }} </a></li>
+                    <li><a href="{{site.baseurl}}{{ number.url }}"> {{ number.title }} </a></li>
                 {% endfor %}
             
             {% else %}
                 {% for website in site.websites %}
-                    <li><a href="{{ website.url }}"> {{ website.title }} </a></li>
+                    <li><a href="{{site.baseurl}}{{ website.url }}"> {{ website.title }} </a></li>
                 {% endfor %}
             {% endif %}
         </ol>

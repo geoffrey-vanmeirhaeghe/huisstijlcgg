@@ -1,0 +1,1 @@
+De notitiekaart vormt een overzicht van de contactgegevens en biedt de mogelijkheid om snel wat informatie neer te pennen voor de client. Dit is ook een template voor andere kaarten.

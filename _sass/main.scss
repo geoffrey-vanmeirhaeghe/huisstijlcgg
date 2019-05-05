@@ -19,6 +19,7 @@ h1{
 // Color Variables
 $primary-color: #0672b5;
 $secondary-color: #77b2e1;
+$grey: #6C747F;
 $white: #FFF;
 
 .primary-bg{
@@ -26,6 +27,9 @@ $white: #FFF;
 }
 .secondary-bg{
     background-color: $secondary-color;
+}
+.grey-bg{
+    background-color: $grey;
 }
 .white-bg{
     background-color: $white;
@@ -35,6 +39,9 @@ $white: #FFF;
 }
 .secondary{
     color: $secondary-color;
+}
+.grey{
+    color: $grey;
 }
 .white{
     color: $white;
@@ -309,6 +316,213 @@ header{
         }
     }
 }
+.overview{
+    padding: 25px 35px 25px 35px;
+    float: right;
+    img{
+        width: 100%;
+        margin-top: 50px;
+    }
+    p{
+        margin-top: 40px;
+        border-bottom: 1px solid $secondary-color;
+        padding-bottom: 50px;
+        a{
+            color: $secondary-color;
+            border-bottom: 2px dotted $secondary-color;
+            .glyphicon{
+                font-size: 13px;
+                margin-left: 5px;
+            }
+        }
+        a:hover{
+            text-decoration: none;
+            font-weight: 600;
+        }
+    }
+    h4{
+        margin-top: 30px;
+    }
+    ol{
+        margin-top: 30px;
+        li{
+            padding-left: 20px;
+            margin-top: 20px;
+        }
+    }
+}
+.color-box{
+    padding: 0px !important;
+    border-right: 20px solid $white;
+    margin-top: 20px;
+    .color-border{
+        border: 1px solid #000;
+        height: 150px;
+        padding-left: 10px;
+        padding-right: 10px;
+        h4{
+            font-weight: 600;
+            margin-top: 15px;
+            color: $white;
+        }
+    }
+    table{
+        width: 100%;
+        margin-top: 10px;
+    }
+    tr{
+        font-size: 14px;
+        .align-left{
+            text-align: left;
+            font-weight: 600;
+        }
+        .align-right{
+            text-align: right;
+            float: right;
+        }
+    }
+}
+#grey-h4{
+    color: $grey;
+}
+.colorstrip{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: $white;
+    font-weight: 600;
+    height: 50px;
+    margin-top: 40px;
+    line-height: 320%;
+    .primary-bg{
+        width: 45%;
+        display: block;
+        float: left;
+        height: 50px;
+    }
+    .secondary-bg{
+        width: 15%;
+        display: block;
+        float: left;
+        height: 50px;
+    }
+    .white-bg{
+        width: 35%;
+        display: block;
+        float: left;
+        color: $primary-color;
+        height: 50px;
+    }
+    .grey-bg{
+        width: 5%;
+        display: block;
+        float: left;
+        height: 50px;
+    }
+}
+.color-gradient{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: $white;
+    color: $white;
+    text-align: center;
+    line-height: 320%;
+    margin-top: 40px;
+    .primary-bg{
+        width: 10%;
+        display: block;
+        float: left;
+        height: 50px
+    }
+    .secondary-bg{
+        width: 10%;
+        display: block;
+        float: left;
+        height: 50px
+    }
+    .grey-bg{
+        width: 10%;
+        display: block;
+        float: left;
+        height: 50px
+    }
+    .op-100{
+        opacity: 1;
+    }
+    .op-90{
+        opacity: 0.9;
+    }
+    .op-80{
+        opacity: 0.8;
+    }
+    .op-70{
+        opacity: 0.7;
+    }
+    .op-60{
+        opacity: 0.6;
+    }
+    .op-50{
+        opacity: 0.5;
+    }
+    .op-40{
+        opacity: 0.4;
+    }
+    .op-30{
+        opacity: 0.3;
+    }
+    .op-20{
+        opacity: 0.2;
+    }
+    .op-10{
+        opacity: 0.1;
+    }
+}
+.products-overview{
+    position: relative;
+    overflow: auto;
+    margin-top: 50px;
+    padding: 25px 35px;
+    box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.1);
+    a{
+        color: $primary-color;
+        font-size: 20px;
+        font-weight: 600;
+        width: 25%;
+    }
+    p{
+        position: absolute;
+        bottom: 10px;
+        vertical-align: bottom;
+        color: $primary-color;
+        width: 42%;
+        text-align: justify;
+        word-spacing: -2px;
+        a{
+            text-align: left;
+            font-size: 16px;
+            line-height: 750%;
+            padding: 20px;
+            background-color: $primary-color;
+            color: $white;
+            border-bottom-right-radius: 20px;
+        }
+            span{
+                margin-left: 12px;
+                font-size: 12px;
+                vertical-align: +1px;
+            }
+    }
+    .overview-img{
+        display: inline-block;
+        float: right;
+        width: 50%;
+        height: 100%;
+        img {
+            max-width: 100%;
+        }
+    }
+}
 
 // Footer flex
 body {
@@ -365,6 +579,27 @@ body {
     .row{
         margin-top: 0px;
     }
+    .products-overview{
+        a{
+            width: 100%;
+            text-align: center;
+        }
+        p{
+            position: relative;
+            margin-top: 20px;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .overview-img{
+            margin-top: 20px;
+            float: none;
+            width: 100%;
+            img {
+                max-width: 100%;
+            }
+        }
+    }
 }
 
 // MOBILE
@@ -386,7 +621,7 @@ body {
     }
     .component-img{
         margin-top: 20px !important;
-        }
+    }
     .row{
         margin-top: 0px;
     }
@@ -411,5 +646,40 @@ body {
             font-size: 15px;
             word-spacing: +4px;
         }
+    }
+    .products-overview{
+        a{
+            width: 100%;
+            text-align: center;
+        }
+        p{
+            position: relative;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+            a{
+                font-size: 15px;
+                word-spacing: -2px;
+            }
+        }
+        .overview-img{
+            float: none;
+            width: 100%;
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 480px){
+    .products-overview{
+        p{
+            a{
+                font-size: 13px;
+            }
+        }
+    }
+    .color-box{
+        border-right: 5px solid $white;
     }
 }

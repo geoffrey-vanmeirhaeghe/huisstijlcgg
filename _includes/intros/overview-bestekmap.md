@@ -1,0 +1,1 @@
+Omwille van de wetenschappelijke invalshoeken van de service die wordt aangeboden, wordt heel veel documentatie verdeeld. Om dit eenvoudig te bundelen werd een vouwmap ontworpen.

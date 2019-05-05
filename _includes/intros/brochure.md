@@ -1,0 +1,1 @@
+Voor de externe communicatie over het aanbod, nieuws, etc. werd een template voor brochures opgesteld. Deze template vertrekt vanuit de principes van de huisstijl en kan aangepast worden naargelang eigen wensen. 

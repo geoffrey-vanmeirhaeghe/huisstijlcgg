@@ -1,0 +1,1 @@
+In functie van de huisstijl werd een visitekaartje ontworpen waarop in duidelijke weergave de functie van de medewerker, alsook contactgegevens werden geplaatst.

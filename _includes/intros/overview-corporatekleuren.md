@@ -1,0 +1,1 @@
+De corporate kleuren bestaan uit een combinatie van 2 prominente kleuren, en 2 ondersteunende kleuren. De prominente kleuren bestaan uit het primaire diepe blauw en het secundaire hemelblauw. De ondersteunende kleuren bestaan uit een donkere grijstint voor tekst en ondergeschikte elementen en wit.

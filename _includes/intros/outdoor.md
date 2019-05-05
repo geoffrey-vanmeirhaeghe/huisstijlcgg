@@ -1,0 +1,1 @@
+Om meer aanwezig te zijn in het straatbeeld en op beurzen werden verschillende outdoor deliverables ontworpen. Hieronder vallen bestickering, roll-up banners, vlaggen, etc.

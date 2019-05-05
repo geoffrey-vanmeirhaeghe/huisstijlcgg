@@ -2,35 +2,58 @@
 title: Home
 related-header: /assets/images/header/header-home.png
 custom_header: tall-header
+custom_css: /assets/css/home.css
 ---
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Home</title>
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/home.css">
-  </head>
-  <body>
-      <div class="container home-layout">
-          <div class="wrap">
-                <!--
-                <div class="row">
-                <div class="title-content col-sm-12">
+<div class="container home-layout">
+    <div class="wrap">
+        <!--
+        <div class="row">
+        <div class="title-content col-sm-12">
+        </div>
+        </div>
+        -->
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 id="overview" class="primary">Style Guide CGG</h1>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-12">
+                {% for product in site.products %}
+                {% if product.overview-bg %}
+                <div class="products-overview" style="background-image: url({{ site.baseurl }}{{ product.overview-bg }});">
+                    <a href="{{site.baseurl}}{{ product.url }}"> {{ product.title }}</a>
+                    <div class="overview-img">
+                        <img src="{{ site.baseurl }}{{ product.overview-image }}">
+                    </div>
+                    <p>
+                        {% include intros/{{ product.intro }}.md %}
+                        
+                    <br><a href="{{site.baseurl}}{{ product.url }}">Bekijk dit onderdeel<span class="
+glyphicon glyphicon-chevron-right"></span></a>
+                    </p>
                 </div>
+                {% endif %}
+                {% endfor %}
+                
+                {% for product in site.websites %}
+                {% if product.overview-bg %}
+                <div class="products-overview" style="background-image: url({{ site.baseurl }}{{ product.overview-bg }});">
+                    <a href="{{site.baseurl}}{{ product.url }}"> {{ product.title }}</a>
+                    <div class="overview-img">
+                        <img src="{{ site.baseurl }}{{ product.overview-image }}">
+                    </div>
+                    <p>
+                        {% include intros/{{ product.intro }}.md %}
+                        
+                    <br><a href="{{site.baseurl}}{{ product.url }}">Bekijk dit onderdeel<span class="
+glyphicon glyphicon-chevron-right"></span></a>
+                    </p>
                 </div>
-                -->
-              <div class="row">
-                  <div class="col-sm-12">
-                      <h1 id="overview" class="primary">Style Guide CGG</h1>
-                  </div>
-              </div>
-              <div class="row">
-                <div class="side-content col-md-3 col-sm-4">
-                </div>
-                <div class="main-content col-md-8 col-sm-7">
-                </div>
-              </div>
-          </div>
-      </div>
-  </body>
-</html>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>

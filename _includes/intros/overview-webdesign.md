@@ -1,0 +1,1 @@
+Om meer digitale toehankelijkheid te creëren werd een vernieuwe website ontworpen die de gebruiker centraal stelt. Hier volgt een overzicht van de verschillende soorten pagina's.

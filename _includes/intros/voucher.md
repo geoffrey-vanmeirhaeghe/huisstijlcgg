@@ -1,1 +1,0 @@
-Ter aanvulling van de afspraakkaartjes hanteert het CGG een voucher waarop enkele kernwoorden kunnen gehanteerd worden. Aangezien deze vouchers ook moeten kunnen omgevormd worden tot bedankingskaarten, is dit in een aanpasbare template.

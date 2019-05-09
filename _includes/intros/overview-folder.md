@@ -1,0 +1,1 @@
+Om informatie omtrent het aanbod te verdelen (bijvoorbeeld over een vorming), wordt gebruikt gemaakt van een drieluiksfolder. Deze wordt in wikkelvouw gevouwen.

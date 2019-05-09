@@ -1,1 +1,0 @@
-Bij het begeleiden van cliënten en de distributie van allerhande documentatie, wordt in CGG Eclips steeds gebruik gemaakt van een vouwmap. Deze werd vernieuwd naar de huidige huisstijl.

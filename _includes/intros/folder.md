@@ -1,1 +1,0 @@
-Voor de externe communicatie over het aanbod en algemene informatie werd een drieluik folder ontworpen. Het ontwerp is vnl. een update van de voorgaande folder volgens de richtlijnen van de nieuwe huisstijl.

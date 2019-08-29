@@ -18,9 +18,6 @@ collections:
 
   websites:
     output: true
-
-  numbers:
-    output: true
       
     
 defaults:

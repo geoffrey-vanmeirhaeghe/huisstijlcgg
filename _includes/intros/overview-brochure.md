@@ -1,0 +1,1 @@
+Aangezien het CGG een complexe werking kent, net als de sector van geestelijke gezondheid, werd geopteerd om brochure templates in te zetten voor communicatie omtrent vormingen, werking, etc.
